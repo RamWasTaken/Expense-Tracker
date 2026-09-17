@@ -167,4 +167,4 @@ curl -X POST localhost:8080/api/expenses/import \
   concurrency mechanism explicit and easy to reason about and explain,
   rather than hidden behind a proxy.
 - **Per-row fault isolation** — a malformed CSV row returns an error string
-  instead of throwing, so one bad row doesn't abort the rest of the batch.
+  instead of throwing, so one bad row doesn't abort the rest of the batch
